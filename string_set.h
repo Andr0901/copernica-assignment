@@ -3,7 +3,7 @@
 #include <utility>
 #include <stdexcept>
 
-// This class is an implemetation of a hash map with separate chaining. All
+// This class is an implemetation of a hash set for strings with separate chaining. All
 // elements are stored in a list(to provide linear iteration); the table has
 // iterators to these elements, according to their hash. It dinamycally
 // resizes itself, doubling the capacity, whenever the number of elements
